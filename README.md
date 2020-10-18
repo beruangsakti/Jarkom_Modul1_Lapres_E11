@@ -49,7 +49,7 @@ Temukan paket dari web-web yang menggunakan basic authentication method!
 menggunakan command filter "http.authbasic". Dan akan muncul semua web yang menggunakan basic authentication method. SS seperti dibawah ini.
 
 ### screenshot hasil filter
-![No 4](/screeenshot/4.PNG)
+![No 4](screeenshot/4b.PNG)
 Gambar diatas adalah web-web yg menggunakan basicc authentication method.
 
 ## Soal no. 5
