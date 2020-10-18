@@ -7,12 +7,12 @@ Sebutkan webserver yang digunakan pada "testing.mekanis.me"!
 Melakukan filter di display filter menggunakan "http.host == testing.mekanis.me" dan akan keluar hasil seperti ini.
 
 ### screenshot filter
-![No 1](/screenshot/1A.PNG)
+![No 1](/Screenshot/1A.PNG)
 
 setelah itu klik dan follow > tcp stream. Dan hasilnya akan seperti ini
 
 ### screenshot follow
-![No 1](/screenshot/1B.PNG)
+![No 1](/Screenshot/1B.PNG)
 Dan dibagian server akan terlihat webserver yang digunakan oleh "testing.mekanis.me".
 
 ## Soal no. 2
