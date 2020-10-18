@@ -17,4 +17,9 @@ Dan dibagian server akan terlihat webserver yang digunakan oleh "testing.mekanis
 
 ## Soal no. 2
 
-s
+Simpan gambar "Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg"!
+
+Langkah pertama adalah memilih tab file setelah itu pilih yang export object dan kita tinggal memilih image yang di inginkan pada soal. Seperti pada SS dibawah ini.
+
+### screenshot export object
+![No 2](/screenshot/2.png)
