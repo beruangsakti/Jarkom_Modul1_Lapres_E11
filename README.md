@@ -22,4 +22,8 @@ Simpan gambar "Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg"!
 Langkah pertama adalah memilih tab file setelah itu pilih yang export object dan kita tinggal memilih image yang di inginkan pada soal. Seperti pada SS dibawah ini.
 
 ### screenshot export object
-![No 2](/screenshot/2.png)
+![No 2](/screenshot/2.PNG)
+
+Setelah itu kita tinggal menyimpan gambar yang di inginkan. dan filenya adalah gambar yang dibawah ini
+
+![No 2](/screenshot/2B.jpg)
