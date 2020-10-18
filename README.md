@@ -157,5 +157,62 @@ clue: "25 50 44 46"
 ### Isi PDF
 ![no 10](screenshot/10PDF.PNG)
 
+<h3>Untuk soal no 11-15 command filter dilakukan di capture filter</h3>
 
 ## Soal No. 11
+
+Filter sehingga wireshark hanya mengambil paket yang mengandung port 21!
+
+* Masukan command filter 'port 21'
+* Hasil seperti gambar dibawah ini
+
+### Filter port 21
+![No 11](screenshot/11B.PNG) 
+
+
+## Soal no. 12
+
+Filter sehingga wireshark hanya mengambil paket yang berasal dari port 80!
+
+* Masukan command filter 'src port 80'
+* Hasil seperti gambar dibawah ini
+
+### Filter port 80
+![No 12](screenshot/12B.PNG)
+
+
+## Soal no.13
+
+Filter sehingga wireshark hanya menampilkan paket yang menuju port 443!
+
+* Masukan command filter 'dst port 443'
+* Hasil seperti gambar dibawah ini
+
+### Filter yang menuju port 443
+![No 13](screenshot/13B.PNG)
+
+
+## Soal no. 14
+
+Filter sehingga wireshark hanya mengambil paket yang berasal dari ip kalian!
+
+* Klik lambang wifi dan cari wifi yang kita connect
+* Setelah itu klik kanan dan klik status
+* setelah itu klik detail
+* dan di samping IPv4 adress adalah IP adress kita
+* setelah itu masukan command filter 'ip src "IP adress kita" '
+* Hasilnya seperti gambar dibawah ini
+
+### Hasil paket berasal dari IP
+![No 14](screenshot/14B.PNG)
+
+
+## Soal no. 15
+
+Filter sehingga wireshark hanya mengambil paket yang tujuannya ke monta.if.its.ac.id!
+
+* Masukan command filter 'dst host monta.if.its.ac.id'
+* Hasil seperti gambar dibawah ini
+
+### Paket bertujuan ke monta.if.its.ac.id
+![No 15](screenshot/15B.PNG)
