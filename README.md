@@ -1,5 +1,6 @@
 # Jarkom_Modul1_Lapres_E11
 
+
 ## Soal no. 1
 
 Sebutkan webserver yang digunakan pada "testing.mekanis.me"!
@@ -15,6 +16,7 @@ setelah itu klik dan follow > tcp stream. Dan hasilnya akan seperti ini
 ![No 1](/Screenshot/1B.PNG)
 Dan dibagian server akan terlihat webserver yang digunakan oleh "testing.mekanis.me".
 
+
 ## Soal no. 2
 
 Simpan gambar "Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg"!
@@ -28,6 +30,7 @@ Setelah itu kita tinggal menyimpan gambar yang di inginkan. dan filenya adalah g
 
 ### screenshot file yang di inginkan
 ![No 2](/screenshot/2B.jpg)
+
 
 ## Soal no. 3
 
@@ -49,8 +52,9 @@ Temukan paket dari web-web yang menggunakan basic authentication method!
 menggunakan command filter "http.authbasic". Dan akan muncul semua web yang menggunakan basic authentication method. SS seperti dibawah ini.
 
 ### screenshot hasil filter
-![No 4](screeenshot/4b.PNG)
+![No 4](screenshot/4b.PNG)
 Gambar diatas adalah web-web yg menggunakan basicc authentication method.
+
 
 ## Soal no. 5
 
@@ -64,6 +68,7 @@ SS nya seperti dibawah ini.
 ### screenshot hasil
 ![No 5](/screenshot/5.PNG)
 Dan seperti gambar di atas ketika memasuki web akan ada pertanyaan seperti di screenshot. Kita isi dan SS jawaban pertanyaan tersebut.
+
 
 ## Soal no. 6
 
@@ -84,5 +89,73 @@ follow > tcp stream
 
 setelah itu kita kita buka pdfnya menggunakan pass nya dan akan mendapatkan gambar seperti dibawah ini.
 
+### Gambar di dalam pdf
 ![No 6](screenshot/6.PNG)
 
+
+## Soal no. 7
+
+Ada 500 file zip yang disimpan ke FTP Server dengan nama 1.zip, 2.zip, ..., 500.zip. Salah satunya berisi pdf yang berisi puisi. Simpan dan Buka file pdf tersebut.
+Your Super Mega Ultra Rare Hint = nama pdf-nya "Yes.pdf"
+
+* Pertama kita ctrl + f, ubah menjadi string setelah itu cari 'Yes.pdf'
+* Setelah itu klik kanan hasil dan ubah menjadi raw dan di save as. 
+* Ketika pdf dibuka akan muncul gambar seperti dibawah ini
+
+### Hasil dari ctrl + f dan isi pdf
+![No 7](screenshot/7B.PNG)
+
+
+## Soal no. 8
+
+Cari objek apa saja yang didownload (RETR) dari koneksi FTP dengan Microsoft FTP Service!
+
+* Kita masukan command filter berikut 'ftp.request.command == RETR'
+* Setelah itu akan muncul seperti gambar dibawah ini 
+
+### Gambar hasil command filter
+![No 8](screenshot/8A.PNG)
+
+* Setelah itu kita klik kanan dan follow untuk mencari mana yang microsoft FTP service. Seperti gambar dibawah ini.
+ 
+ ### Gambar hasil follow
+ ![No 8](screenshot/8B.PNG)
+ * Seperti gambar di atas bahwa microsoft FTP service terdownload Readme
+
+
+ ## Soal no. 9
+
+ Cari username dan password ketika login FTP pada localhost!
+
+* Kita memasukan command filter 'ftp.request.command == USER'. Dan user akan muncul seperti gambar dibawah ini.
+
+### User 
+![No 9](screenshot/9A.PNG)
+
+* memasukan command filter 'ftp.request.command == PASS'. Dan pass akan muncul seperti dibawah ini
+
+### Pass
+![No 9](screenshot/9B.PNG)
+
+* dari 2 hasil diatas didapatkan.
+* username nya adalah 'dhana' dan pass nya adalah 'dhana123'
+
+
+## Soal no. 10
+
+Cari file .pdf di wireshark lalu download dan buka file tersebut!
+clue: "25 50 44 46" 
+
+* Kita CTRL + f dan masukan clue yang di berikan dan jangan lupa untuk mengubah menjadi HEX value juga di find nya. seperti gambar di bawah ini.
+
+### Find SS
+![No 10](screenshot/10Jawaban.PNG)
+
+* setelah itu kita klik kanan dan follow dan ubah jadi raw dan di save as. 
+* Isi dari pdf tersebut adalah seperti gambar dibawah ini.
+
+### Isi PDF
+![no 10](screenshot/10PDF.PNG)
+
+
+## Soal No. 11
